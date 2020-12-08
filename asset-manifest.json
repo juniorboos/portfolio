@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.abd5bf38.chunk.css",
+    "main.js": "/portfolio/static/js/main.e928586a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.e928586a.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.9adcde90.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.9adcde90.js.map",
+    "static/js/2.b712ec1e.chunk.js": "/portfolio/static/js/2.b712ec1e.chunk.js",
+    "static/js/2.b712ec1e.chunk.js.map": "/portfolio/static/js/2.b712ec1e.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.abd5bf38.chunk.css.map": "/portfolio/static/css/main.abd5bf38.chunk.css.map",
+    "static/js/2.b712ec1e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b712ec1e.chunk.js.LICENSE.txt",
+    "static/media/agenda-pg.de2171c3.png": "/portfolio/static/media/agenda-pg.de2171c3.png",
+    "static/media/arbeit.4bbb6fda.png": "/portfolio/static/media/arbeit.4bbb6fda.png",
+    "static/media/be-the-hero.691a279e.png": "/portfolio/static/media/be-the-hero.691a279e.png",
+    "static/media/dai-makeup.45c8c25e.png": "/portfolio/static/media/dai-makeup.45c8c25e.png",
+    "static/media/docinhos-da-lay.dee42d4e.png": "/portfolio/static/media/docinhos-da-lay.dee42d4e.png",
+    "static/media/encrypted-chat.f2bf92da.png": "/portfolio/static/media/encrypted-chat.f2bf92da.png",
+    "static/media/facebook.d097e315.png": "/portfolio/static/media/facebook.d097e315.png",
+    "static/media/iParking-management.c0bed7ca.png": "/portfolio/static/media/iParking-management.c0bed7ca.png",
+    "static/media/iParking-mobile.e530c4b1.png": "/portfolio/static/media/iParking-mobile.e530c4b1.png",
+    "static/media/iParking-web.5a457506.png": "/portfolio/static/media/iParking-web.5a457506.png",
+    "static/media/instagram.86c7d44f.png": "/portfolio/static/media/instagram.86c7d44f.png",
+    "static/media/linkedin.77d34e47.png": "/portfolio/static/media/linkedin.77d34e47.png",
+    "static/media/locdown.5a4b288d.png": "/portfolio/static/media/locdown.5a4b288d.png",
+    "static/media/mountain1.c1c6ac6b.png": "/portfolio/static/media/mountain1.c1c6ac6b.png",
+    "static/media/mountain2.e9c31b0d.png": "/portfolio/static/media/mountain2.e9c31b0d.png",
+    "static/media/mountain3.44bf7f79.png": "/portfolio/static/media/mountain3.44bf7f79.png",
+    "static/media/next-level.da583af7.png": "/portfolio/static/media/next-level.da583af7.png",
+    "static/media/portfolio-v1.fffc9fb5.png": "/portfolio/static/media/portfolio-v1.fffc9fb5.png",
+    "static/media/profile.9b5a1897.jpg": "/portfolio/static/media/profile.9b5a1897.jpg",
+    "static/media/sky.09cd71a3.png": "/portfolio/static/media/sky.09cd71a3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9adcde90.js",
+    "static/js/2.b712ec1e.chunk.js",
+    "static/css/main.abd5bf38.chunk.css",
+    "static/js/main.e928586a.chunk.js"
+  ]
+}
