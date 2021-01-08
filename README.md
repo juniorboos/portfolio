@@ -1,3 +1,3 @@
 ## Check it out!
 
-[https://shrtlnk.netlify.app](https://shrtlnk.netlify.app)
+[https://juniorboos.github.io/portfolio](https://juniorboos.github.io/portfolio)
