@@ -1,24 +1,24 @@
 .section {
-   width: 100%;
-   background-color: #151515;
-   position: relative;
+  width: 100%;
+  background-color: #151515;
+  position: relative;
 }
 
 .container {
-   max-width: 70rem;
-   padding: 0 2rem;
-   margin: 0 auto;
-   display: flex;
-   flex-direction: column;
+  max-width: 70rem;
+  padding: 0 2rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .section .container {
-   padding: 3rem;
-   /* display: grid;
+  padding: 3rem;
+  /* display: grid;
    grid-template-columns: repeat(2, 1fr); */
-   align-items: center;
-   justify-content: center;
-   min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 /* .section .container > * {
@@ -26,132 +26,132 @@
 } */
 
 .content {
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   width: 100%;
-   overflow: visible;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  overflow: visible;
 }
 
 .socialContainer {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
 
-   justify-content: space-around;
-   margin: 18px;
-   overflow: visible;
+  justify-content: space-around;
+  margin: 18px;
+  overflow: visible;
 
-   transform: translateX(-200px);
+  transform: translateX(-200px);
 }
 
-.socialContainer img {
-   width: 100px;
-   height: 100px;
-   margin: 1rem;
-   cursor: pointer;
-   transition: all 0.2s ease-in-out;
+.socialContainer .img {
+  width: 100px;
+  height: 100px;
+  margin: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 
-.socialContainer img:hover {
-   transform: scale(1.1);
+.socialContainer .img:hover {
+  transform: scale(1.1);
 }
 
 .labelForm {
-   font-weight: 600;
-   font-size: 1.2rem;
-   padding-bottom: 0.5rem;
-   position: relative;
-   color: white;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding-bottom: 0.5rem;
+  position: relative;
+  color: white;
 }
 
 .emailContainer {
-   border: 1px solid white;
-   border-radius: 20px;
-   padding: 16px;
-   width: 100%;
-   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.55));
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 16px;
+  width: 100%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.55));
 }
 
 .emailInput,
 .messageInput,
 .button {
-   width: 100%;
-   height: 36px;
-   border-radius: 5px;
-   padding: 6px;
-   border: none;
-   margin-bottom: 16px;
-   font-family: "Poppins";
+  width: 100%;
+  height: 36px;
+  border-radius: 5px;
+  padding: 6px;
+  border: none;
+  margin-bottom: 16px;
+  font-family: "Poppins";
 }
 
 .emailContainer .button {
-   margin-bottom: 0;
-   background-color: rgb(8, 82, 143);
-   color: white;
-   cursor: pointer;
+  margin-bottom: 0;
+  background-color: rgb(8, 82, 143);
+  color: white;
+  cursor: pointer;
 }
 
 .emailContainer .button:hover {
-   background-color: rgb(4, 59, 104);
+  background-color: rgb(4, 59, 104);
 }
 
 .messageInput {
-   height: 50vh;
-   max-height: 500px;
-   resize: none;
+  height: 50vh;
+  max-height: 500px;
+  resize: none;
 }
 
 .title {
-   width: 100%;
-   font-weight: 600;
-   font-size: 1.5rem;
-   margin-bottom: 1rem;
-   padding-bottom: 0.5rem;
-   position: relative;
-   color: white;
-   margin-left: 16px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  position: relative;
+  color: white;
+  margin-left: 16px;
 }
 
 .border {
-   position: absolute;
-   width: 0%;
-   max-width: 100%;
-   height: 3px;
-   background-color: #fff;
-   bottom: 0;
-   left: 0;
+  position: absolute;
+  width: 0%;
+  max-width: 100%;
+  height: 3px;
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
 }
 
 @media (max-width: 850px) {
-   .content {
-      flex-direction: column;
-   }
+  .content {
+    flex-direction: column;
+  }
 
-   .socialContainer {
-      width: 100%;
-      flex-direction: row;
-   }
+  .socialContainer {
+    width: 100%;
+    flex-direction: row;
+  }
 
-   .socialContainer img {
-      width: 80px;
-      height: 80px;
-      margin: 4px;
-   }
+  .socialContainer img {
+    width: 80px;
+    height: 80px;
+    margin: 4px;
+  }
 }
 
 @media (max-width: 600px) {
-   .title {
-      font-size: 1.2rem;
-   }
+  .title {
+    font-size: 1.2rem;
+  }
 
-   .socialContainer img {
-      width: 60px;
-      height: 60px;
-   }
+  .socialContainer img {
+    width: 60px;
+    height: 60px;
+  }
 
-   .labelForm {
-      font-size: 1rem;
-   }
+  .labelForm {
+    font-size: 1rem;
+  }
 }

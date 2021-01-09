@@ -3,6 +3,7 @@ import styles from "../../styles/Contact.module.css";
 import axios from "axios";
 import { useAlert } from "react-alert";
 import { Event } from "../../services/analytics";
+import Image from "next/image";
 
 import facebook from "../../assets/Social/facebook.png";
 import github from "../../assets/Social/github.png";
@@ -116,12 +117,15 @@ const Contact = () => {
         <div className={styles.content}>
           <div className={styles.socialContainer} ref={social}>
             {socialItems.map((item, idx) => (
-              <img
-                key={idx}
-                src={item.image}
-                alt=""
-                onClick={() => handleClick(item)}
-              />
+              <div key={idx} className={styles.img}>
+                <Image
+                  src={item.image}
+                  alt=""
+                  onClick={() => handleClick(item)}
+                  width={100}
+                  height={100}
+                />
+              </div>
             ))}
           </div>
           <div className={styles.emailContainer}>
@@ -141,7 +145,9 @@ const Contact = () => {
                 onChange={(e) => setMessage(e.target.value)}
                 className={styles.messageInput}
               />
-              <button className={styles.button} type="submit">SEND</button>
+              <button className={styles.button} type="submit">
+                SEND
+              </button>
             </form>
           </div>
         </div>
