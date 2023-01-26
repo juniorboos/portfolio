@@ -51,10 +51,13 @@ const About = () => {
             <div ref={border} className={styles.border}></div>
           </h3>
           <p className={styles.text}>
-            21 years old, born in Brazil, currently doing a master's degree in
-            Information Systems at the Polytechnic Institute of Bragança. Before
-            that, studied at the Federal University of Technology - Paraná as a
-            graduate in Computer Science.
+            I'm a 23-year-old developer with experience in building web 
+            applications using React (with Hooks) as a primary framework. 
+            I also have experience using TypeScript to add static type checking
+            to my code and ensure its quality, along with testing techniques and
+            tools to ensure the reliability and maintainability of my applications.
+            In addition, I have experience with responsive design to make sure my
+            application looks and works great on any device.
           </p>
           <br />
           <p className={styles.text}>
